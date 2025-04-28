@@ -1,0 +1,108 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MattValidatorTest",
+    "printedName": "MattValidatorTest",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MattValidatorTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Validator",
+        "printedName": "Validator",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateEmail",
+            "printedName": "validateEmail(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MattValidatorTest0B0V13validateEmailySbSSFZ",
+            "mangledName": "$s17MattValidatorTest0B0V13validateEmailySbSSFZ",
+            "moduleName": "MattValidatorTest",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Validator",
+                "printedName": "MattValidatorTest.Validator",
+                "usr": "s:17MattValidatorTest0B0V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MattValidatorTest0B0VACycfc",
+            "mangledName": "$s17MattValidatorTest0B0VACycfc",
+            "moduleName": "MattValidatorTest",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17MattValidatorTest0B0V",
+        "mangledName": "$s17MattValidatorTest0B0V",
+        "moduleName": "MattValidatorTest",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MattValidatorTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
